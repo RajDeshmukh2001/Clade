@@ -20,7 +20,7 @@ const Skills = () => {
                     </div>
 
                     <div className="w-fit flex items-center gap-[6px] py-1 px-[6px] rounded-lg border border-[#D0D5DD]">
-                        <Image src="/Adobe_Xd.png" alt="figma" width={16.41} height={16} />
+                        <Image src="/adobe_Xd.png" alt="figma" width={16.41} height={16} />
                         <h6 className="text-xs font-medium text-[#344054]">Adobe XD</h6>
                     </div>
                 </div>
