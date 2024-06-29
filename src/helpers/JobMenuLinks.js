@@ -21,13 +21,13 @@ const JobMenuLinks = () => {
                     href="#"
                     key={link.id}
                     onClick={() => setActiveLink(link.id)}
-                    className={`${activeLink === link.id ? 'text-[#DC4A2D] font-semibold' : 'text-[#888888] font-medium'} relative flex items-center justify-center text-[15px] md:text-base lg::text-xl py-2 md:py-[15px] lg:py-5`}
+                    className={`${activeLink === link.id ? 'text-[#DC4A2D] font-[550]' : 'text-[#888888] font-[450]'} relative flex items-center justify-center text-[12px] md:text-base lg::text-xl py-3 md:py-[15px] lg:py-5`}
                 >
                     {activeLink === link.id && (
                         <m.div
                             layoutId="active-pill"
                             className="absolute bottom-0 h-[2px] w-3/5 rounded-full bg-[#DC4A2D]"
-                            transition={{ duration: 0.5 }} 
+                            transition={{ type: "spring", duration: 0.5 }} 
                         />
                     )}
                     <span className="relative z-10">{link.value}</span>

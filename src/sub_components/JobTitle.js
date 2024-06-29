@@ -6,9 +6,11 @@ import { LiaCoinsSolid } from "react-icons/lia";
 const JobTitle = () => {
     return (
         <div className="w-full flex flex-col gap-2 lg:gap-6 px-6 py-5 md:pl-10 lg:pl-24 md:py-5 lg:py-6 bg-white">
-            <div className="flex items-center justify-between md:justify-normal gap-2 lg:gap-3">
+            <div className="flex items-center flex-wrap md:flex-nowrap gap-x-2 gap-y-1 md:gap-2 lg:gap-3">
                 <h1 className="text-base md:text-xl lg:text-4xl font-semibold text-[#3D3D3D]">Senior Product Designer</h1>
+
                 <span className="w-[3px] h-[3px] md:w-1 md:h-1 rounded-full bg-[#D1D1D1]"></span>
+
                 <p className="text-[11px] lg:text-sm font-normal md:font-medium text-[#888888]">posted 2 days ago</p>
 
                 <div className="flex items-center gap-[6px] bg-[#ECFDF3] border border-[#ABEFC6] py-[2px] md:py-[3px] lg:py-1 px-[6px] lg:px-2 rounded-full">

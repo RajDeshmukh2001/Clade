@@ -12,7 +12,7 @@ const Actions = () => {
     return (
         <div className="w-full flex items-center md:pt-6 md:px-3 lg:px-6 actions_menu">
             <div className="md:w-full md:max-w-[360px] w-[70%] flex flex-col gap-6">
-                <div className="w-full flex md:flex-col-reverse lg:flex-row items-center justify-between gap-2 md:gap-[6px] lg:gap-4">
+                <div className="w-full flex md:flex-col-reverse lg:flex-row items-center justify-between gap-4 md:gap-[6px] lg:gap-4">
                     <button className="w-full flex items-center justify-center gap-2 rounded-lg py-2 md:py-3 md:px-[6px] lg:px-6 bg-[#FEF4F2] border-[0.8px] border-[#DC4A2D] text-[#DC4A2D] outline-none hover:bg-[#DC4A2D] hover:border-[#FED3CA] hover:text-white transition duration-300 ease-in-out">
                         <HiOutlineTrash className="w-[14px] h-[14px] md:w-4 lg:w-5 md:h-4 lg:h-5" />
                         <span className="text-sm lg:text-base font-medium">Delete job</span>
