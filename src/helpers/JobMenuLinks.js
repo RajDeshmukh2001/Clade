@@ -21,7 +21,7 @@ const JobMenuLinks = () => {
                     href="#"
                     key={link.id}
                     onClick={() => setActiveLink(link.id)}
-                    className={`${activeLink === link.id ? 'text-[#DC4A2D] font-[550]' : 'text-[#888888] font-[450]'} relative flex items-center justify-center text-[12px] md:text-base lg::text-xl py-3 md:py-[15px] lg:py-5`}
+                    className={`${activeLink === link.id ? 'text-[#DC4A2D] font-semibold' : 'text-[#888888] font-medium'} relative flex items-center justify-center text-[12.5px] md:text-base lg::text-xl py-3 md:py-[15px] lg:py-5`}
                 >
                     {activeLink === link.id && (
                         <m.div
